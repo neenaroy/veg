@@ -1,0 +1,4 @@
+$user=$_SESSION['username'];
+$s3="select * from register where username='$username'";
+$result=mysql_query($s3);
+$row=mysql_fetch_array($result);
